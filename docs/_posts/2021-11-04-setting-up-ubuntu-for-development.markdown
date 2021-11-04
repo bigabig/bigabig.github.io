@@ -24,6 +24,9 @@ Also, install docker-compose to manage, start and close multiple docker containe
 $ sudo apt install zsh
 $ chsh -s $(which zsh)
 
+# Install tmux (for multiple sessions, split windows etc.)
+$ sudo apt-get install tmux 
+
 # Install ohmzyzsh (https://github.com/ohmyzsh/ohmyzsh)
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -82,5 +85,6 @@ Then install the chrome-gnome-shell
 ```
 $ sudo apt-get install chrome-gnome-shell
 ```
-## Install System Monitor
-I like the system monitor to keep track of my system resources. Therefore, visit https://extensions.gnome.org/extension/120/system-monitor/ and install the extension.
+I install the following extensions:
+- https://extensions.gnome.org/extension/120/system-monitor/
+- https://extensions.gnome.org/extension/779/clipboard-indicator/

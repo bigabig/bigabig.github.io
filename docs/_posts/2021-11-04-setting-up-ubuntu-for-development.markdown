@@ -88,3 +88,13 @@ $ sudo apt-get install chrome-gnome-shell
 I install the following extensions:
 - https://extensions.gnome.org/extension/120/system-monitor/
 - https://extensions.gnome.org/extension/779/clipboard-indicator/
+
+# Configure SSH
+If you frequently need to connect to some remote servers, it is a good idea to add these servers to your ~/.ssh/config file to have quick access to them:
+```
+# config file
+Host myserver
+    User <user_name>
+    HostName <host_name>
+```
+Then, you can quickly connect to this server with `ssh myserver`

@@ -98,3 +98,10 @@ Host myserver
     HostName <host_name>
 ```
 Then, you can quickly connect to this server with `ssh myserver`
+
+# Change Login Screen Background Image
+´´´
+$ wget github.com/thiggy01/change-gdm-background/raw/master/change-gdm-background
+$ chmod +x change-gdm-background
+$ sudo ./change-gdm-background /path/to/image
+´´´

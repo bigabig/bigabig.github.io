@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Developing with remote python environment"
-date:   2021-22-04 16:00:00 +0100
+date:   2021-11-22 12:15:00 +0100
 categories: python, pycharm, remote, conda
 ---
 

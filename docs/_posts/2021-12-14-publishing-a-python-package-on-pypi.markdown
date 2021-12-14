@@ -14,8 +14,11 @@ I am going to demonstrate in 5 easy steps how to publish a Python package on PyP
 
 # 2. Create & configure config files
 - Create two files, pyproject.toml & setup.cfg, in the root directory of our Python project "packaging_tutorial". 
-I included example configs. 
-For all available options & keys, look (here)[https://setuptools.pypa.io/en/latest/userguide/declarative_config.html] for setup.cfg and (here)[https://setuptools.pypa.io/en/latest/build_meta.html] for pyproject.toml
+I included example configs below. 
+
+For all available options & keys, look 
+- (here)[https://setuptools.pypa.io/en/latest/userguide/declarative_config.html] for setup.cfg 
+- and (here)[https://setuptools.pypa.io/en/latest/build_meta.html] for pyproject.toml
 
 setup.cfg
 ```
@@ -84,7 +87,9 @@ Upload to PyPi
 python3 -m twine upload dist/*
 ```
 You can now visit the example package here:
+
 View at Pypi: [https://pypi.org/project/example-pkg-bigabig/0.0.1/](https://pypi.org/project/example-pkg-bigabig/0.0.1/)
+
 View at testpypi: [https://test.pypi.org/project/example-pkg-bigabig/0.0.1/](https://test.pypi.org/project/example-pkg-bigabig/0.0.1/)
 
 # (Optional) Install your package

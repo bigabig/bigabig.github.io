@@ -86,11 +86,9 @@ python3 -m twine upload --repository testpypi dist/*
 Upload to PyPi
 python3 -m twine upload dist/*
 ```
-You can now visit the example package here:
-
-View at Pypi: [https://pypi.org/project/example-pkg-bigabig/0.0.1/](https://pypi.org/project/example-pkg-bigabig/0.0.1/)
-
-View at testpypi: [https://test.pypi.org/project/example-pkg-bigabig/0.0.1/](https://test.pypi.org/project/example-pkg-bigabig/0.0.1/)
+You can now visit the example package:
+- View at Pypi: [https://pypi.org/project/example-pkg-bigabig/0.0.1/](https://pypi.org/project/example-pkg-bigabig/0.0.1/)
+- View at testpypi: [https://test.pypi.org/project/example-pkg-bigabig/0.0.1/](https://test.pypi.org/project/example-pkg-bigabig/0.0.1/)
 
 # (Optional) Install your package
 You can now install your package easily!
